@@ -1,0 +1,493 @@
+{
+	"info": {
+		"_postman_id": "5a66d166-173a-4eb3-b12c-3fe9f75d003c",
+		"name": "Custom World Copy 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fetch Builder 1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/fetch-all-builders?motorcycle=Himalayan&style=&location=101&servicesOffered=Metal%20Shaping&sortBy=",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"fetch-all-builders"
+					],
+					"query": [
+						{
+							"key": "motorcycle",
+							"value": "Himalayan"
+						},
+						{
+							"key": "style",
+							"value": ""
+						},
+						{
+							"key": "location",
+							"value": "101"
+						},
+						{
+							"key": "servicesOffered",
+							"value": "Metal%20Shaping"
+						},
+						{
+							"key": "sortBy",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Builder 2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/fetch-all-builders?motorcycle=Interceptor%20650&style=&location=101&servicesOffered=Modified&sortBy=",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"fetch-all-builders"
+					],
+					"query": [
+						{
+							"key": "motorcycle",
+							"value": "Interceptor%20650"
+						},
+						{
+							"key": "style",
+							"value": ""
+						},
+						{
+							"key": "location",
+							"value": "101"
+						},
+						{
+							"key": "servicesOffered",
+							"value": "Modified"
+						},
+						{
+							"key": "sortBy",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Builder 3",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/fetch-all-builders?motorcycle=Classic&style=&location=101&servicesOffered=Custom%20Paint&sortBy=",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"fetch-all-builders"
+					],
+					"query": [
+						{
+							"key": "motorcycle",
+							"value": "Classic"
+						},
+						{
+							"key": "style",
+							"value": ""
+						},
+						{
+							"key": "location",
+							"value": "101"
+						},
+						{
+							"key": "servicesOffered",
+							"value": "Custom%20Paint"
+						},
+						{
+							"key": "sortBy",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Builder 4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/fetch-all-builders?motorcycle=Himalayan&style=&location=101&servicesOffered=Handmade&sortBy=",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"fetch-all-builders"
+					],
+					"query": [
+						{
+							"key": "motorcycle",
+							"value": "Himalayan"
+						},
+						{
+							"key": "style",
+							"value": ""
+						},
+						{
+							"key": "location",
+							"value": "101"
+						},
+						{
+							"key": "servicesOffered",
+							"value": "Handmade"
+						},
+						{
+							"key": "sortBy",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Builder 5",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/fetch-all-builders?motorcycle=&style=&location=&servicesOffered=Custom%20Paint&sortBy=",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"fetch-all-builders"
+					],
+					"query": [
+						{
+							"key": "motorcycle",
+							"value": ""
+						},
+						{
+							"key": "style",
+							"value": ""
+						},
+						{
+							"key": "location",
+							"value": ""
+						},
+						{
+							"key": "servicesOffered",
+							"value": "Custom%20Paint"
+						},
+						{
+							"key": "sortBy",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Builder 6",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/fetch-all-builders",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"fetch-all-builders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Auto suggestion 1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/auto-suggestion-builder?names=tnt motorcycles",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"auto-suggestion-builder"
+					],
+					"query": [
+						{
+							"key": "names",
+							"value": "tnt motorcycles"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Auto suggestion 2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/auto-suggestion-builder?names=tnt",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"auto-suggestion-builder"
+					],
+					"query": [
+						{
+							"key": "names",
+							"value": "tnt"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Auto suggestion 3",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/auto-suggestion-builder?names=bombay",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"auto-suggestion-builder"
+					],
+					"query": [
+						{
+							"key": "names",
+							"value": "bombay"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Auto suggestion 4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-custom-country",
+						"value": "in",
+						"type": "text"
+					},
+					{
+						"key": "x-custom-language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat2.royalenfield.com/v3/core/custom-builders/builders/auto-suggestion-builder?names=bolt",
+					"protocol": "https",
+					"host": [
+						"api-uat2",
+						"royalenfield",
+						"com"
+					],
+					"path": [
+						"v3",
+						"core",
+						"custom-builders",
+						"builders",
+						"auto-suggestion-builder"
+					],
+					"query": [
+						{
+							"key": "names",
+							"value": "bolt"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
